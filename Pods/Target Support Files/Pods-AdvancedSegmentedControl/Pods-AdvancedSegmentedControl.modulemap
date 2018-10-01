@@ -1,0 +1,6 @@
+framework module Pods_AdvancedSegmentedControl {
+  umbrella header "Pods-AdvancedSegmentedControl-umbrella.h"
+
+  export *
+  module * { export * }
+}

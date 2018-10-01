@@ -7,9 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A262EFB6C26B86D4CBE07D7 /* Pods_AdvancedSegmentedControlTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AEEF1B6C78E600096444779 /* Pods_AdvancedSegmentedControlTests.framework */; };
 		95F70B6B2162221F0034C5AD /* AdvancedSegmentedControl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95F70B612162221F0034C5AD /* AdvancedSegmentedControl.framework */; };
 		95F70B702162221F0034C5AD /* AdvancedSegmentedControlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F70B6F2162221F0034C5AD /* AdvancedSegmentedControlTests.swift */; };
 		95F70B722162221F0034C5AD /* AdvancedSegmentedControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 95F70B642162221F0034C5AD /* AdvancedSegmentedControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95F70B7D216222470034C5AD /* AdvancedSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F70B7B216222460034C5AD /* AdvancedSegmentedControl.swift */; };
+		95F70B7E216222470034C5AD /* SegmentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F70B7C216222460034C5AD /* SegmentCell.swift */; };
+		95F70B81216222F50034C5AD /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F70B80216222F50034C5AD /* UIColor+Extensions.swift */; };
+		9AACFE32D5FBFA4640123C97 /* Pods_AdvancedSegmentedControl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67CA8234C2837EE83D5227A2 /* Pods_AdvancedSegmentedControl.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,12 +28,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		054379086B0CC36E29112AAE /* Pods-AdvancedSegmentedControl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdvancedSegmentedControl.release.xcconfig"; path = "Pods/Target Support Files/Pods-AdvancedSegmentedControl/Pods-AdvancedSegmentedControl.release.xcconfig"; sourceTree = "<group>"; };
+		0D5CAD146B79E181E83E1449 /* Pods-AdvancedSegmentedControlTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdvancedSegmentedControlTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AdvancedSegmentedControlTests/Pods-AdvancedSegmentedControlTests.release.xcconfig"; sourceTree = "<group>"; };
+		2AEEF1B6C78E600096444779 /* Pods_AdvancedSegmentedControlTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AdvancedSegmentedControlTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		67CA8234C2837EE83D5227A2 /* Pods_AdvancedSegmentedControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AdvancedSegmentedControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		91E9A89A24ACD10EF188D799 /* Pods-AdvancedSegmentedControl.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdvancedSegmentedControl.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AdvancedSegmentedControl/Pods-AdvancedSegmentedControl.debug.xcconfig"; sourceTree = "<group>"; };
 		95F70B612162221F0034C5AD /* AdvancedSegmentedControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AdvancedSegmentedControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		95F70B642162221F0034C5AD /* AdvancedSegmentedControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdvancedSegmentedControl.h; sourceTree = "<group>"; };
 		95F70B652162221F0034C5AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		95F70B6A2162221F0034C5AD /* AdvancedSegmentedControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdvancedSegmentedControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		95F70B6F2162221F0034C5AD /* AdvancedSegmentedControlTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedSegmentedControlTests.swift; sourceTree = "<group>"; };
 		95F70B712162221F0034C5AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95F70B7B216222460034C5AD /* AdvancedSegmentedControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdvancedSegmentedControl.swift; sourceTree = "<group>"; };
+		95F70B7C216222460034C5AD /* SegmentCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegmentCell.swift; sourceTree = "<group>"; };
+		95F70B80216222F50034C5AD /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		9FAEE6A6BBD268343FEDD3E6 /* Pods-AdvancedSegmentedControlTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdvancedSegmentedControlTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AdvancedSegmentedControlTests/Pods-AdvancedSegmentedControlTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9AACFE32D5FBFA4640123C97 /* Pods_AdvancedSegmentedControl.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,18 +59,41 @@
 			buildActionMask = 2147483647;
 			files = (
 				95F70B6B2162221F0034C5AD /* AdvancedSegmentedControl.framework in Frameworks */,
+				2A262EFB6C26B86D4CBE07D7 /* Pods_AdvancedSegmentedControlTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		43E88D961C477AC4FF3FB761 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				67CA8234C2837EE83D5227A2 /* Pods_AdvancedSegmentedControl.framework */,
+				2AEEF1B6C78E600096444779 /* Pods_AdvancedSegmentedControlTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		841C2B0D43D9799C9C25BA48 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				91E9A89A24ACD10EF188D799 /* Pods-AdvancedSegmentedControl.debug.xcconfig */,
+				054379086B0CC36E29112AAE /* Pods-AdvancedSegmentedControl.release.xcconfig */,
+				9FAEE6A6BBD268343FEDD3E6 /* Pods-AdvancedSegmentedControlTests.debug.xcconfig */,
+				0D5CAD146B79E181E83E1449 /* Pods-AdvancedSegmentedControlTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		95F70B572162221F0034C5AD = {
 			isa = PBXGroup;
 			children = (
 				95F70B632162221F0034C5AD /* AdvancedSegmentedControl */,
 				95F70B6E2162221F0034C5AD /* AdvancedSegmentedControlTests */,
 				95F70B622162221F0034C5AD /* Products */,
+				841C2B0D43D9799C9C25BA48 /* Pods */,
+				43E88D961C477AC4FF3FB761 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,6 +109,9 @@
 		95F70B632162221F0034C5AD /* AdvancedSegmentedControl */ = {
 			isa = PBXGroup;
 			children = (
+				95F70B7F216222E30034C5AD /* Aux */,
+				95F70B7B216222460034C5AD /* AdvancedSegmentedControl.swift */,
+				95F70B7C216222460034C5AD /* SegmentCell.swift */,
 				95F70B642162221F0034C5AD /* AdvancedSegmentedControl.h */,
 				95F70B652162221F0034C5AD /* Info.plist */,
 			);
@@ -84,6 +125,14 @@
 				95F70B712162221F0034C5AD /* Info.plist */,
 			);
 			path = AdvancedSegmentedControlTests;
+			sourceTree = "<group>";
+		};
+		95F70B7F216222E30034C5AD /* Aux */ = {
+			isa = PBXGroup;
+			children = (
+				95F70B80216222F50034C5AD /* UIColor+Extensions.swift */,
+			);
+			path = Aux;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -104,6 +153,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 95F70B752162221F0034C5AD /* Build configuration list for PBXNativeTarget "AdvancedSegmentedControl" */;
 			buildPhases = (
+				E758FFD738A2F48D4B967A14 /* [CP] Check Pods Manifest.lock */,
 				95F70B5C2162221F0034C5AD /* Headers */,
 				95F70B5D2162221F0034C5AD /* Sources */,
 				95F70B5E2162221F0034C5AD /* Frameworks */,
@@ -122,9 +172,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 95F70B782162221F0034C5AD /* Build configuration list for PBXNativeTarget "AdvancedSegmentedControlTests" */;
 			buildPhases = (
+				FE2E7B23B55D403E8261CEC0 /* [CP] Check Pods Manifest.lock */,
 				95F70B662162221F0034C5AD /* Sources */,
 				95F70B672162221F0034C5AD /* Frameworks */,
 				95F70B682162221F0034C5AD /* Resources */,
+				DC37607BE788325E0F690D56 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -148,6 +200,7 @@
 				TargetAttributes = {
 					95F70B602162221F0034C5AD = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
 					};
 					95F70B692162221F0034C5AD = {
 						CreatedOnToolsVersion = 10.0;
@@ -189,11 +242,87 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		DC37607BE788325E0F690D56 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AdvancedSegmentedControlTests/Pods-AdvancedSegmentedControlTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwifterSwift/SwifterSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/UIImageColors/UIImageColors.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwifterSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UIImageColors.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AdvancedSegmentedControlTests/Pods-AdvancedSegmentedControlTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E758FFD738A2F48D4B967A14 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AdvancedSegmentedControl-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE2E7B23B55D403E8261CEC0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AdvancedSegmentedControlTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		95F70B5D2162221F0034C5AD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95F70B7D216222470034C5AD /* AdvancedSegmentedControl.swift in Sources */,
+				95F70B81216222F50034C5AD /* UIColor+Extensions.swift in Sources */,
+				95F70B7E216222470034C5AD /* SegmentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,7 +469,9 @@
 		};
 		95F70B762162221F0034C5AD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91E9A89A24ACD10EF188D799 /* Pods-AdvancedSegmentedControl.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -358,6 +489,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.quantm.AdvancedSegmentedControl;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -365,7 +497,9 @@
 		};
 		95F70B772162221F0034C5AD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 054379086B0CC36E29112AAE /* Pods-AdvancedSegmentedControl.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -390,7 +524,9 @@
 		};
 		95F70B792162221F0034C5AD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FAEE6A6BBD268343FEDD3E6 /* Pods-AdvancedSegmentedControlTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7F6BJZY5B3;
 				INFOPLIST_FILE = AdvancedSegmentedControlTests/Info.plist;
@@ -408,7 +544,9 @@
 		};
 		95F70B7A2162221F0034C5AD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D5CAD146B79E181E83E1449 /* Pods-AdvancedSegmentedControlTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7F6BJZY5B3;
 				INFOPLIST_FILE = AdvancedSegmentedControlTests/Info.plist;
