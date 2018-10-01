@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "AdvancedSegmentedControl"
-  s.version      = "0.1.1"
+  s.version      = "0.1.2"
   s.summary      = "A segmented control that supports scrolling."
 
   # This description is used to generate tags and improve search results.
@@ -63,7 +63,7 @@ A segmented control that supports scrolling. It's basically a collectionView tha
   #
 
   # s.platform     = :ios
-  s.platform     = :ios, "12.0"
+  s.platform     = :ios, "10.0"
 
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
